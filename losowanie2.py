@@ -4,7 +4,7 @@ import uuid
 
 app = Flask(__name__)
 
-uczestnicy = ["Anna", "Bartek", "Celina", "Darek", "Ewelina", "Filip", "Gosia", "Hubert"]
+uczestnicy = ["Agata", "Agnieszka", "Kinga", "Marta", "Monika", "Tomek", "Dominik", "Piotrek", "Jacek"]
 
 def losuj_secret_santa(osoby):
     while True:
@@ -93,3 +93,4 @@ def prezent():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
